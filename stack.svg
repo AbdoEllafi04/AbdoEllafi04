@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="306" viewBox="0 0 860 306" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace">
+<style>
+text{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+.dim{fill:#7d8590} .ink{fill:#e6edf3} .grn{fill:#3fb950} .blu{fill:#58a6ff} .acc{fill:#54c5f8}
+.cur{animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.type{transform-box:fill-box;transform-origin:left;transform:scaleX(0);animation:type .7s steps(28,end) forwards}@keyframes type{to{transform:scaleX(1)}}.pop{transform-box:fill-box;transform-origin:center;opacity:0;animation:pop .45s ease-out forwards}@keyframes pop{0%{opacity:0;transform:scale(.6)}70%{opacity:1;transform:scale(1.06)}100%{opacity:1;transform:scale(1)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important;transform:none!important}}
+</style>
+<rect x="0.5" y="0.5" width="859" height="305" rx="12" fill="#0d1117" stroke="#30363d"/>
+<path d="M0.5 12.5a12 12 0 0 1 12-12h835a12 12 0 0 1 12 12v24h-859z" fill="#161b22"/>
+<line x1="0.5" y1="36.5" x2="859.5" y2="36.5" stroke="#30363d"/>
+<circle cx="22" cy="18.5" r="6" fill="#ff5f57"/><circle cx="42" cy="18.5" r="6" fill="#febc2e"/><circle cx="62" cy="18.5" r="6" fill="#28c840"/>
+<text x="430.0" y="23" font-size="13" text-anchor="middle" class="dim">abdo@github: ~/stack</text>
+<clipPath id="p8aadcfbe"><rect class="type" x="24" y="57" width="355.0" height="21" style="animation-delay:0.1s"/></clipPath>
+<text x="24" y="72" font-size="15" clip-path="url(#p8aadcfbe)" textLength="351.0" lengthAdjust="spacingAndGlyphs"><tspan class="grn">abdo@github</tspan><tspan class="ink">:</tspan><tspan class="blu">~</tspan><tspan class="ink">$ ls ~/stack --by-category</tspan></text>
+<text x="32" y="121" font-size="15" fill="#54c5f8" class="pop" style="animation-delay:0.90s">mobile/</text>
+<g class="pop" style="animation-delay:1.02s"><rect x="190.0" y="101" width="84.8" height="30" rx="7" fill="#54c5f8" fill-opacity=".12" stroke="#54c5f8" stroke-opacity=".55"/><text x="232.4" y="121" font-size="14" text-anchor="middle" fill="#54c5f8" textLength="58.8" lengthAdjust="spacingAndGlyphs">Flutter</text></g>
+<g class="pop" style="animation-delay:1.14s"><rect x="284.8" y="101" width="59.6" height="30" rx="7" fill="#54c5f8" fill-opacity=".12" stroke="#54c5f8" stroke-opacity=".55"/><text x="314.6" y="121" font-size="14" text-anchor="middle" fill="#54c5f8" textLength="33.6" lengthAdjust="spacingAndGlyphs">Dart</text></g>
+<g class="pop" style="animation-delay:1.26s"><rect x="354.4" y="101" width="51.2" height="30" rx="7" fill="#54c5f8" fill-opacity=".12" stroke="#54c5f8" stroke-opacity=".55"/><text x="380.0" y="121" font-size="14" text-anchor="middle" fill="#54c5f8" textLength="25.2" lengthAdjust="spacingAndGlyphs">iOS</text></g>
+<g class="pop" style="animation-delay:1.38s"><rect x="415.6" y="101" width="84.8" height="30" rx="7" fill="#54c5f8" fill-opacity=".12" stroke="#54c5f8" stroke-opacity=".55"/><text x="458.0" y="121" font-size="14" text-anchor="middle" fill="#54c5f8" textLength="58.8" lengthAdjust="spacingAndGlyphs">Android</text></g>
+<text x="32" y="167" font-size="15" fill="#a371f7" class="pop" style="animation-delay:1.53s">backend/</text>
+<g class="pop" style="animation-delay:1.65s"><rect x="190.0" y="147" width="51.2" height="30" rx="7" fill="#a371f7" fill-opacity=".12" stroke="#a371f7" stroke-opacity=".55"/><text x="215.6" y="167" font-size="14" text-anchor="middle" fill="#a371f7" textLength="25.2" lengthAdjust="spacingAndGlyphs">PHP</text></g>
+<g class="pop" style="animation-delay:1.77s"><rect x="251.2" y="147" width="76.4" height="30" rx="7" fill="#a371f7" fill-opacity=".12" stroke="#a371f7" stroke-opacity=".55"/><text x="289.4" y="167" font-size="14" text-anchor="middle" fill="#a371f7" textLength="50.4" lengthAdjust="spacingAndGlyphs">Python</text></g>
+<g class="pop" style="animation-delay:1.89s"><rect x="337.6" y="147" width="84.8" height="30" rx="7" fill="#a371f7" fill-opacity=".12" stroke="#a371f7" stroke-opacity=".55"/><text x="380.0" y="167" font-size="14" text-anchor="middle" fill="#a371f7" textLength="58.8" lengthAdjust="spacingAndGlyphs">Next.js</text></g>
+<text x="32" y="213" font-size="15" fill="#3fb950" class="pop" style="animation-delay:2.04s">databases/</text>
+<g class="pop" style="animation-delay:2.16s"><rect x="190.0" y="193" width="110.0" height="30" rx="7" fill="#3fb950" fill-opacity=".12" stroke="#3fb950" stroke-opacity=".55"/><text x="245.0" y="213" font-size="14" text-anchor="middle" fill="#3fb950" textLength="84.0" lengthAdjust="spacingAndGlyphs">PostgreSQL</text></g>
+<g class="pop" style="animation-delay:2.28s"><rect x="310.0" y="193" width="68.0" height="30" rx="7" fill="#3fb950" fill-opacity=".12" stroke="#3fb950" stroke-opacity=".55"/><text x="344.0" y="213" font-size="14" text-anchor="middle" fill="#3fb950" textLength="42.0" lengthAdjust="spacingAndGlyphs">MySQL</text></g>
+<text x="32" y="259" font-size="15" fill="#f0883e" class="pop" style="animation-delay:2.43s">chatbots/</text>
+<g class="pop" style="animation-delay:2.55s"><rect x="190.0" y="239" width="59.6" height="30" rx="7" fill="#f0883e" fill-opacity=".12" stroke="#f0883e" stroke-opacity=".55"/><text x="219.8" y="259" font-size="14" text-anchor="middle" fill="#f0883e" textLength="33.6" lengthAdjust="spacingAndGlyphs">Rasa</text></g>
+</svg>

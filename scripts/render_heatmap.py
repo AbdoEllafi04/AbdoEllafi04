@@ -2,6 +2,7 @@
 """Render data/contributions.json as an animated contribution graph
 (contrib-heatmap.svg): cells pop in week by week inside a terminal window."""
 import datetime as dt
+import math
 import os
 
 from common import (DIM, INK, LEVELS, ROOT, TYPE_CSS, esc, load_data, prompt,
@@ -17,9 +18,28 @@ START = 0.9          # seconds: wait for the prompt to type
 SPAN = 3.2           # seconds for the whole grid to fill
 
 
+def relevel(days):
+    """GitHub shades cells relative to your single busiest day, so a few huge
+    days push everything else into the palest green. Shade on a log scale up to
+    a typical busy day (95th percentile) instead, so the graph shows real variety."""
+    active = sorted(d["count"] for d in days if d["count"])
+    if not active:
+        return
+    p95 = active[min(len(active) - 1, int(0.95 * len(active)))]
+    for d in days:
+        c = d["count"]
+        if not c:
+            d["level"] = 0
+        elif p95 <= 1:
+            d["level"] = 1
+        else:
+            d["level"] = max(1, min(4, 1 + round(3 * math.log(c) / math.log(p95))))
+
+
 def main():
     data = load_data()
     days = data["days"]
+    relevel(days)
     first = dt.date.fromisoformat(days[0]["date"])
     offset = (first.weekday() + 1) % 7            # GitHub rows start on Sunday
     weeks = (offset + len(days) + 6) // 7

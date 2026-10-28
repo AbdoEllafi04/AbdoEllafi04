@@ -43,6 +43,11 @@ jobs:
       - name: Render stats card
         run: python scripts/render_stats.py
 
+      - name: Render intro and stack
+        run: |
+          python scripts/render_intro.py
+          python scripts/render_stack.py
+
       # The portrait only needs rebuilding when the photo or profile changes,
       # so the daily run skips it (unless it doesn't exist yet).
       - name: Install background remover (optional)
