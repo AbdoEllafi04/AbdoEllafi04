@@ -1,0 +1,61 @@
+name: Update profile art
+
+# Rebuilds the contribution graph + stats card every day from your real
+# GitHub data, and the ASCII portrait whenever you push or run it by hand.
+
+on:
+  schedule:
+    - cron: "23 5 * * *"     # 05:23 UTC = 07:23 in Tripoli
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-art
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Scrape contribution data (no token needed)
+        run: python scripts/fetch_contributions.py
+        env:
+          GH_PROFILE_USER: ${{ github.repository_owner }}
+
+      - name: Render contribution graph
+        run: python scripts/render_heatmap.py
+
+      - name: Render stats card
+        run: python scripts/render_stats.py
+
+      # The portrait only needs rebuilding when the photo or profile changes,
+      # so the daily run skips it (unless it doesn't exist yet).
+      - name: Install background remover (optional)
+        if: github.event_name != 'schedule' || hashFiles('portrait-ascii.svg') == ''
+        continue-on-error: true
+        run: pip install "rembg[cpu]"
+
+      - name: Render ASCII portrait
+        if: github.event_name != 'schedule' || hashFiles('portrait-ascii.svg') == ''
+        run: python scripts/make_portrait.py
+
+      - name: Commit updated art
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh profile art [skip ci]"
+          file_pattern: "data/contributions.json *.svg"

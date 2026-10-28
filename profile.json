@@ -1,0 +1,15 @@
+{
+  "username": "AbdoEllafi04",
+  "name": "Abdulrahman Ellafi",
+  "prompt_user": "abdo",
+  "accent": "#54c5f8",
+  "info": [
+    ["role", "Software Engineer · Mobile App Developer"],
+    ["company", "Masarat Fintech"],
+    ["location", "Tripoli, Libya"],
+    ["mobile", "Flutter · Dart · iOS · Android"],
+    ["backend", "PHP · Python · Next.js"],
+    ["databases", "PostgreSQL · MySQL"],
+    ["shipped", "5+ apps in production"]
+  ]
+}
