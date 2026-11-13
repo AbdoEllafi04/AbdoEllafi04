@@ -1,21 +1,21 @@
 {
  "username": "AbdoEllafi04",
- "generated_at": "2026-11-13T13:52:44Z",
+ "generated_at": "2026-11-13T13:53:43Z",
  "range": {
   "start": "2025-11-09",
   "end": "2026-11-13"
  },
- "total": 1698,
- "active_days": 278,
- "avg_per_active_day": 6.1,
+ "total": 1703,
+ "active_days": 282,
+ "avg_per_active_day": 6.0,
  "current_streak": {
-  "length": 58,
-  "start": "2026-09-17",
+  "length": 83,
+  "start": "2026-08-23",
   "end": "2026-11-13"
  },
  "longest_streak": {
-  "length": 58,
-  "start": "2026-09-17",
+  "length": 83,
+  "start": "2026-08-23",
   "end": "2026-11-13"
  },
  "best_day": {
@@ -65,7 +65,7 @@
   },
   {
    "month": "2026-09",
-   "total": 185
+   "total": 189
   },
   {
    "month": "2026-10",
@@ -73,16 +73,16 @@
   },
   {
    "month": "2026-11",
-   "total": 81
+   "total": 82
   }
  ],
  "weekday": [
-  227,
-  232,
-  237,
-  225,
+  228,
+  233,
+  238,
+  226,
   282,
-  304,
+  305,
   191
  ],
  "days": [
@@ -1598,13 +1598,13 @@
   },
   {
    "date": "2026-09-07",
-   "count": 0,
-   "level": 0
+   "count": 1,
+   "level": 1
   },
   {
    "date": "2026-09-08",
-   "count": 0,
-   "level": 0
+   "count": 1,
+   "level": 1
   },
   {
    "date": "2026-09-09",
@@ -1628,8 +1628,8 @@
   },
   {
    "date": "2026-09-13",
-   "count": 0,
-   "level": 0
+   "count": 1,
+   "level": 1
   },
   {
    "date": "2026-09-14",
@@ -1643,8 +1643,8 @@
   },
   {
    "date": "2026-09-16",
-   "count": 0,
-   "level": 0
+   "count": 1,
+   "level": 1
   },
   {
    "date": "2026-09-17",
@@ -1933,7 +1933,7 @@
   },
   {
    "date": "2026-11-13",
-   "count": 2,
+   "count": 3,
    "level": 1
   }
  ]

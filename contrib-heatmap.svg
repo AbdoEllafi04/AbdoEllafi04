@@ -332,16 +332,16 @@ text{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberatio
 <rect class="c on" x="688" y="187" width="12" height="12" rx="2.5" fill="#26a641" style="animation-delay:3.43s"/>
 <rect class="c on" x="688" y="202" width="12" height="12" rx="2.5" fill="#0e4429" style="animation-delay:3.46s"/>
 <rect class="c on" x="703" y="112" width="12" height="12" rx="2.5" fill="#006d32" style="animation-delay:3.31s"/>
-<rect class="c" x="703" y="127" width="12" height="12" rx="2.5" fill="#161b22" style="animation-delay:3.35s"/>
-<rect class="c" x="703" y="142" width="12" height="12" rx="2.5" fill="#161b22" style="animation-delay:3.38s"/>
+<rect class="c on" x="703" y="127" width="12" height="12" rx="2.5" fill="#0e4429" style="animation-delay:3.35s"/>
+<rect class="c on" x="703" y="142" width="12" height="12" rx="2.5" fill="#0e4429" style="animation-delay:3.38s"/>
 <rect class="c on" x="703" y="157" width="12" height="12" rx="2.5" fill="#0e4429" style="animation-delay:3.42s"/>
 <rect class="c on" x="703" y="172" width="12" height="12" rx="2.5" fill="#26a641" style="animation-delay:3.45s"/>
 <rect class="c on" x="703" y="187" width="12" height="12" rx="2.5" fill="#006d32" style="animation-delay:3.48s"/>
 <rect class="c on" x="703" y="202" width="12" height="12" rx="2.5" fill="#26a641" style="animation-delay:3.52s"/>
-<rect class="c" x="718" y="112" width="12" height="12" rx="2.5" fill="#161b22" style="animation-delay:3.37s"/>
+<rect class="c on" x="718" y="112" width="12" height="12" rx="2.5" fill="#0e4429" style="animation-delay:3.37s"/>
 <rect class="c on" x="718" y="127" width="12" height="12" rx="2.5" fill="#006d32" style="animation-delay:3.40s"/>
 <rect class="c on" x="718" y="142" width="12" height="12" rx="2.5" fill="#0e4429" style="animation-delay:3.44s"/>
-<rect class="c" x="718" y="157" width="12" height="12" rx="2.5" fill="#161b22" style="animation-delay:3.47s"/>
+<rect class="c on" x="718" y="157" width="12" height="12" rx="2.5" fill="#0e4429" style="animation-delay:3.47s"/>
 <rect class="c on" x="718" y="172" width="12" height="12" rx="2.5" fill="#39d353" style="animation-delay:3.50s"/>
 <rect class="c on" x="718" y="187" width="12" height="12" rx="2.5" fill="#39d353" style="animation-delay:3.54s"/>
 <rect class="c on" x="718" y="202" width="12" height="12" rx="2.5" fill="#26a641" style="animation-delay:3.57s"/>
@@ -400,5 +400,5 @@ text{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberatio
 <rect class="c on" x="838" y="157" width="12" height="12" rx="2.5" fill="#006d32" style="animation-delay:3.92s"/>
 <rect class="c on" x="838" y="172" width="12" height="12" rx="2.5" fill="#26a641" style="animation-delay:3.95s"/>
 <rect class="c on" x="838" y="187" width="12" height="12" rx="2.5" fill="#006d32" style="animation-delay:3.99s"/>
-<g class="fade" style="animation-delay:4.70s"><text x="58" y="248" font-size="14" fill="#e6edf3" font-weight="700">1,698 contributions in the last year</text><text x="704" y="247" font-size="11" class="dim">Less</text><rect x="738" y="237" width="12" height="12" rx="2.5" fill="#161b22"/><rect x="753" y="237" width="12" height="12" rx="2.5" fill="#0e4429"/><rect x="768" y="237" width="12" height="12" rx="2.5" fill="#006d32"/><rect x="783" y="237" width="12" height="12" rx="2.5" fill="#26a641"/><rect x="798" y="237" width="12" height="12" rx="2.5" fill="#39d353"/><text x="819" y="247" font-size="11" class="dim">More</text></g>
+<g class="fade" style="animation-delay:4.70s"><text x="58" y="248" font-size="14" fill="#e6edf3" font-weight="700">1,703 contributions in the last year</text><text x="704" y="247" font-size="11" class="dim">Less</text><rect x="738" y="237" width="12" height="12" rx="2.5" fill="#161b22"/><rect x="753" y="237" width="12" height="12" rx="2.5" fill="#0e4429"/><rect x="768" y="237" width="12" height="12" rx="2.5" fill="#006d32"/><rect x="783" y="237" width="12" height="12" rx="2.5" fill="#26a641"/><rect x="798" y="237" width="12" height="12" rx="2.5" fill="#39d353"/><text x="819" y="247" font-size="11" class="dim">More</text></g>
 </svg>
